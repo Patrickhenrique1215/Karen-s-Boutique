@@ -9,6 +9,6 @@
 									|
 	selecionar cores}-------------->produto_cores			|
 									|
-	carregar imagens(ate 20)}------>produto_imagens}-----------------
+carregar imagens(ate 20)}-------------->produto_imagens}-----------------
 
-	variaçoes}--------------------->produto_variacoes
+	       variaçoes}-------------->produto_variacoes
