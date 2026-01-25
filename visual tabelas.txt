@@ -1,0 +1,14 @@
+		CRUD		|		BD		|		VITRINE
+       		nome    }		categorias				
+		nome2	}		tamanhos			
+	descricao_curta	}		cores
+	descricao_longa	}-------------->produtos}------------------------
+		preco	}						|
+		preco2	}						|
+   selecionar categoria }						|----->cards(so imagens, nome, preco, preco2)
+									|
+	selecionar cores}-------------->produto_cores			|
+									|
+	carregar imagens(ate 20)}------>produto_imagens}-----------------
+
+	variaçoes}--------------------->produto_variacoes

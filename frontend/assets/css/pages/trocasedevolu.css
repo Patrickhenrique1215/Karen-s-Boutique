@@ -1,0 +1,16 @@
+
+#meuModal {
+    margin: 100px 6vw 20vh 6vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#meuModal p{
+    color: #786569;
+}
+
+@media (min-width: 992px){
+    #meuModal{
+        margin: 50px 12vw 20vh 12vw;
+    }
+}

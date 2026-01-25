@@ -1,0 +1,20 @@
+.privacidade{
+	display: flex;
+	flex-direction: column;
+	margin: 100px 6vw 40px 6vw;
+	gap: 10px;
+}
+
+.privacidade h4{
+	margin-top: 10px;
+}
+
+.privacidade p{
+	color: #786569;
+}
+
+@media (min-width: 992px){
+	.privacidade{
+		margin: 50px 12vw 40px 12vw;
+	}
+}

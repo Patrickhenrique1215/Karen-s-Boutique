@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!-- Metas -->
+	<meta charset="utf-8">				
+	<meta name="description" content="Roupas elegantes e charmosas, perfeitas para mulheres que valorizam sofisticação e estilo. Encontre o look elegante ideal para as melhores ocasiões. Vista-se com confiança! ">
+	<meta name="author" content="insta patrick_henrique_">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">				
+
+	<!-- Geral -->
+	<link rel="icon" href="assets/images/favicon.png">  <!--16x16-->
+	<title>Karen`s Boutique</title>
+
+	<!--CSSs-->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">    <!-- #C04A4A E #F5C2BA e #786569--->
+
+	<!--Fontes e icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+	
+</head>
+<body>
+	<div id="carrinho-panel" class="carrinho-panel">
+	  <div class="carrinho-content">
+	    <section class="seccar">
+	    	<div class="topocarrinho">
+	    		<img src="assets/images/favicon.jpg">
+	    		<h3>Meu carrinho</h3>
+	    		<span id="close-carrinho" class="close-btn">&times;</span>
+	    	</div>
+
+	    	<div class="barradeprogresso">
+	    		<div class="step">
+	    			<span class="numprog marcado"></span>
+	    			<span class="descriprog">Carrinho</span>
+	    		</div>
+	    		<div class="linhadeprogresso"></div>
+	    		<div class="step">
+	    			<span class="numprog">2</span>
+	    			<span class="descriprog">Dados</span>
+	    		</div>
+	    		<div class="linhadeprogresso"></div>
+	    		<div class="step">
+	    			<span class="numprog">3</span>
+	    			<span class="descriprog">Pagamento</span>
+	    		</div>
+	  		</div>
+
+
+			<div class="produtosadd">
+				
+			</div>
+
+	    </section>
+	    <section class="footercar">
+			<div>
+				subtotal e total
+			</div>
+			<div>
+				<button id="botaofinalizar" class="botaofinalizar">Finalizar compra</button>
+			</div>
+
+			<div class="bandcar">
+				<img src="assets/images/mastercard@2x.png">
+				<img src="assets/images/visa@2x.png">
+				<img src="assets/images/pix@2x.png">
+				<img src="assets/images/amex@2x.png">
+				<img src="assets/images/diners@2x.png">
+				<img src="assets/images/elo@2x.png">
+				<img src="assets/images/hipercard@2x.png">
+			</div>
+	    </section>
+	  </div>
+	</div>
+
+	<!--TOPO DO MOBILE-->
+	<header class="header-nav">
+	  	<div class="navbar">
+			<div class="gridtopo">
+				<div class="diviconuser"><a class="iconuser" href="login.html"><i class="fa-solid fa-user"></i></a></div>
+				<div class="search-container-mobile">
+					<a href="#" class="search-icon-mobile" id="searchToggleMobile">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</a>
+					<div class="search-box-mobile" id="searchBoxMobile">
+						<input type="text" class="search-input-mobile" id="searchInputMobile" placeholder="O que você está procurando?">
+						
+					</div>
+				</div>
+				<div class="div-logo"><img class="logo" src="assets/images/logosemfundo.png" alt="logotipo de Karens boutique"></div>
+				<div class="divcart"><a id="carrinho-mobile" class="iconcart" ><i class="fa-solid fa-cart-shopping"></i></a></div>
+				<div class="divbars"><a class="bars" id="abrirmenu"><i class="fa-solid fa-bars"></i></a></div>
+			</div>	
+
+			<div class="menu-items" id="meumenu">
+				<button class="botaofecharmenumobile" id="fecharmenu"><i class="fa-solid fa-xmark"></i>	</button>
+				<nav>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="novidades.html">Novidades</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropbtn">Categorias <svg class="seta" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 16l-6-6h12l-6 6z"/></svg></a>
+						<ul class="submenu">
+							<li><a href="tudo.html">Tudo</a></li>
+							<li><a href="Vestidos.html">Vestidos</a></li>
+							<li><a href="blusas.html">Blusas</a></li>
+							<li><a href="calcas.html">Calças</a></li>
+							<li><a href="casacos.html">Casacos</a></li>
+							<li><a href="saias.html">Saias</a></li>
+							<li><a href="camisas.html">Camisas</a></li>
+							<li><a href="macacoes.html">Macacões</a></li>
+							<li><a href="croppeds.html">Croppeds</a></li>
+							<li><a href="bodys.html">Bodys</a></li>
+							<li><a href="blazers.html">Blazers</a></li>
+							<li><a href="shorts.html">Shorts</a></li>
+							<li><a href="conjuntos.html">Conjuntos</a></li>
+						</ul>
+					</li>
+					<li><a href="acessorios.html">Acessórios</a></li>
+					<li><a href="contatos.html">Contatos</a></li>
+					<li><a href="#"><img class="logoinsta" src="assets/images/logoinsta.png"></a></li>
+				</nav>
+			</div>
+	  	</div>
+	</header>
+
+	<!--TOPO DO DESKTOP-->
+	<header class="headerdesktop">
+		<div class="topo">	
+			<img  class="logodesktop" src="assets/images/logosemfundo.png" alt="logotipo de Karens boutique">
+			<a id="carrinho-desktop" class="iconcartdesk" ><i class="fa-solid fa-cart-shopping"></i></a>
+			<a class="iconuserdesk" href="login.html"><i class="fa-solid fa-user"></i></a>
+		</div>
+		<nav class="menu-principal">
+			<ul>
+				<li class="">
+					<a href="index.html" >Home</a>
+				</li>
+				<li>
+					<a href="novidades.html" >Novidades</a>
+				</li>
+
+				<li class="dropdown">
+		        	<a href="#" class="">Categorias</a>
+		        	<svg class="svgcategorias" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor"><path d="M12 16l-6-6h12l-6 6z"/></svg>
+		        	<ul class="dropdown-content">
+				      <li><a href="tudo.html">Tudo</a></li>
+				      <li><a href="Vestidos.html">Vestidos</a></li>
+				      <li><a href="blusas.html">Blusas</a></li>
+				      <li><a href="calcas.html">Calças</a></li>
+				      <li><a href="casacos.html">Casacos</a></li>
+				      <li><a href="saias.html">Saias</a></li>
+				      <li><a href="camisas.html">Camisas</a></li>
+				      <li><a href="macacoes.html">Macacões</a></li>
+				      <li><a href="croppeds.html">Croppeds</a></li>
+				      <li><a href="bodys.html">Bodys</a></li>
+				      <li><a href="blazers.html">Blazers</a></li>
+				      <li><a href="shorts.html">Shorts</a></li>
+				      <li><a href="conjuntos.html">Conjuntos</a></li>
+				    </ul>
+		        </li>
+
+				<li>
+					<a href="acessorios.html" >Acessórios</a>
+				</li>
+				<li>
+					<a href="contatos.html" >Contatos</a>
+				</li>
+				<li>
+					<div class="search-container">
+						<a href="#" class="search-icon" id="searchToggle">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</a>
+						<div class="search-box" id="searchBox">
+							<input type="text" class="search-input" id="searchInput" placeholder="O que você está procurando?">
+							
+						</div>
+            		</div>
+				</li>
+				
+			</ul>
+		</nav>
+	</header>
+
+	<!-- SECTION QUE APARECE OS PRODUTOS BUSCADOS-->
+	<section>
+		
+		<div class="products-grid" id="productsGrid">
+			<!-- Produtos serão carregados aqui -->
+		</div>
+	</section>
+
+
+
+	<section class="privacidade somenabusca">
+	        <h2>Política de privacidade</h2>
+	        <p>Na forma utilizada nesta Política de Privacidade, Karen`s Boutique refere-se a todos os sites (incluindo Karen`s Boutique e serviços de marketing por assinatura), sites para dispositivos móveis, aplicativos móveis e outras propriedades ou serviços da propriedade ou operados pela Karen`s Boutique.</p>
+			<p>Ao visitar a Karen`s Boutique, visualizar nosso conteúdo, participar ou assistir a qualquer um dos nossos eventos ou programas e/ou utilizar qualquer um dos nossos serviços, você reconhece que aceita as práticas e políticas descritas nesta Política de Privacidade.</p>
+	        <h4>O Que Está Incluído Nesta Política de Privacidade?</h4>
+	        <p>Essa Política de Privacidade é parte dos Termos de Serviço da Karen`s Boutique e cobre o tratamento de informações do usuário, incluindo Informações de Identificação Pessoal obtidas pela Karen`s Boutique, incluindo informações obtidas quando você acessa ou faz login na Karen`s Boutique e/ou se cadastra para conteúdo, webinários ou uso do canais de comunicação fornecidos ou utilizados pela Karen`s Boutique.</p>
+	        <p>Essa Política de Privacidade não se aplica às práticas de empresas de que a Karen`s Boutique não é proprietária ou não controla ou a indivíduos que não são empregados ou geridos pela Karen`s Boutique, incluindo qualquer um dos terceiros aos quais a Karen`s Boutique poderá divulgar dados de usuários, conforme estabelecido nesta Política.</p>
+	        <h4>Que Tipos de Informações de Usuário a Karen`s Boutique Obtém?</h4>
+	        <p>A Karen`s Boutique pode obter os seguintes tipos de informações sobre você ou seu computador ou dispositivo (“Informações”) que podem ser utilizadas para identificar você, como especificado abaixo (“Informações de Identificação Pessoal”): Nome, Endereço de e-mail, Endereço de correspondência, Número(s) de telefone, Dados de cartão de crédito, URL de blog ou site, Identificação ou nome de usuário em redes sociais, Fotografia, Dados Demográficos (ex: idade, gênero, interesses e preferências)., Título Profissional, Empresa, Indústria de Atuação, Atividades ou Conteúdo Visualizado na Karen`s Boutique, Informações Coletadas Automaticamente (detalhadas abaixo), Informações Recebidas de Terceiros (detalhadas abaixo)</p>
+			<p>m certos casos, poderemos solicitar que você forneça algumas das Informações identificadas acima a fim de obter produtos ou serviços específicos (como cadastrar-se para acesso a serviços ou fazer login para baixar conteúdos, relatórios, acesso a vídeos e informações). Caso você opte por não fornecer as Informações que solicitamos, você ainda poderá utilizar a Karen`s Boutique, mas não poderá acessar certos recursos ou serviços.
+			Ao se cadastrar para receber quaisquer produtos ou serviços da Karen`s Boutique ou fornecer informações à Karen`s Boutique de qualquer outra maneira, você concorda em fornecer apenas informações verdadeiras, corretas, atualizadas e completas.</p>
+	        <h4>Informações Coletadas Automaticamente</h4>
+	        <p>A Karen`s Boutique poderá receber e registrar automaticamente certos tipos de informação quando você visitar ou interagir com nossos sites, aplicativos móveis ou outros produtos, incluindo:
+			Informações sobre navegadores, Informações sobre sistema operacional, Informações sobre dispositivos móveis (ex: identificador do dispositivo, sistema operacional etc), Endereço de IP, Provedor de serviço de internet, Conteúdo visualizado, Localização geográfica, Velocidade da conexão, Tempo da visita, Site, aplicativo ou serviço de referência, Tempo de cadastro, Informações Recebidas de Terceiros, Eventos, Inscrições e Webinários. 
+			Caso você se cadastre para eventos, inscrições ou webinários fornecidos pela Karen`s Boutique, nós poderemos receber Informações sobre você de provedores de serviço que hospedam ou processam cadastros para esses programas, ou que oferecem outros serviços de suporte para esses programas (suporte técnico, por exemplo). Isso pode incluir algumas das Informações de Identificação Pessoal identificadas acima.</p>
+	        <h4>Sites de Terceiros/ Sites de Redes Sociais</h4>
+	        <p>Se você optar por usar qualquer site ou serviço de terceiros integrado à Karen`s Boutique, incluindo redes sociais ou sites de blog de terceiros, como LinkedIn, Facebook, Instagram, Whatsapp, Twitter ou WordPress (“Sites de Terceiros”) – ou se você utilizar qualquer aplicativo da Karen`s Boutique fornecido através de qualquer Site de Terceiros – nós poderemos receber Informações, inclusive Informações de Identificação Pessoal, a partir desses Sites de Terceiros, incluindo, mas não limitado a: Nome, Apelido ou nome de usuário, Fotografia ou avatar, Identificador único de site de terceiros (ex: ID de usuário do Facebook), Informações biográficas ou demográficas (ex: título profissional, gênero, local de estudo etc), Páginas e posts “curtidos” e interesses, Contatos/Amigos/Associações e Quaisquer informações que estejam disponíveis publicamente em Sites de Terceiros</p>
+			<p>Por exemplo: a Karen`s Boutique pode oferecer a habilidade de utilizar certos Sites de Terceiros para facilitar seu cadastramento na Karen`s Boutique. Poderemos também usar informações sobre o seu perfil e conexões em Sites de Terceiros para te permitir compartilhar ou se conectar com seus amigos e contatos na Karen`s Boutique ou personalizar sua experiência. Adicionalmente, a Karen`s Boutique oferece “plug ins” e “widgets” de vários Sites de Terceiros que permitem que você compartilhe conteúdo da Karen`s Boutique a partir do nosso serviço, como discutido em “Divulgação de Informações a Terceiros”.
+			Sua decisão de utilizar ou compartilhar com Site de Terceiros enquanto acessa ou utiliza produtos e serviços da Karen`s Boutique é completamente voluntária. A Karen`s Boutique não é responsável pelo cumprimento de políticas ou práticas de qualquer Site de Terceiros. Você deve confirmar se está confortável com as informações que esses Sites de Terceiros poderão disponibilizar para a Karen`s Boutique, verificando as políticas de privacidade e termos de serviço desses sites e modificando suas configurações e preferências de privacidade nesses Serviços.
+			Qualquer informação recebida por nós a partir de Sites de Terceiros será governada por essa Política de Privacidade.</p>
+	        <h4>Como Nós Usamos Essas Informações?</h4>
+	        <p>Usamos as Informações fornecidas por você ou sobre você ou seu computador ou dispositivo para fornecer produtos e serviços, atender às suas solicitações, melhorar nossos produtos e serviços, personalizar e adaptar sua experiência Karen`s Boutique, operar seu negócio e entender como os usuários interagem com a Karen`s Boutique.</p>
+	        <p>Além disso, podemos usar Informações fornecidas por você ou sobre você ou seu computador ou dispositivo para facilitar a entrega de conteúdo ou anúncios que possam ser do seu interesse ou para nos comunicarmos com você sobre produtos e serviços novos ou já existentes e promoções especiais. Por exemplo: podemos enviar periodicamente materiais promocionais ou notificações relacionadas aos nossos produtos e serviços para o endereço de e-mail associado à sua conta.</p>
+			<h4>Uso de Cookies da Karen`s Boutique</h4>
+			<p>A Karen`s Boutique poderá colocar “cookies” em seu computador ou dispositivo, contendo informações anônimas associadas a você. Cookies são pequenos arquivos de texto que um site utiliza para reconhecer usuários, e geralmente são armazenados em seu disco rígido por um servidor web. Cookies contêm informações que mais tarde serão lidas por servidores web no domínio que enviou o cookie para você (nesse caso, a Karen`s Boutique) ou em alguns casos, por domínios de terceiros.
+			Nossos cookies poderão armazenar Informações sobre o seu uso da Karen`s Boutique, para que seja possível oferecer uma experiência contínua e mais personalizada para você, inclusive para um ou alguns dos seguintes propósitos: para ajudar a identificar visitantes; avaliar padrões de uso; identificar preferências; controlar a exibição de anúncios; diagnosticar problemas com nossos servidores; coletar dados demográficos; analisar tendências e padrões de uso; conduzir pesquisas; entregar material editorial; registrar cadastramento e informações personalizadas; e administrar de outras maneiras os produtos e serviços da Karen`s Boutique.
+			Caso você não deseje que a Karen`s Boutique armazene e utilize cookies em seu computador, você deve alterar as preferências do seu navegador em implementar corretamente ou comunicar suas preferências ou configurações de navegação. Caso opte por não aceitar cookies, você não poderá fazer log in ou utilizar outros recursos interativos da  Karen`s Boutique que dependem de cookies.</p><p>A Karen`s Boutique não controla e não é responsável pelo uso de cookies por parte de parceiros ou anunciantes.  O uso de cookies por alguns desses terceiros é discutida abaixo (ver “Serviços de Dados Analíticos”).</p>
+	        <h4>Revisando e Modificando Suas Informações de Identificação Pessoal</h4>
+	        <p>Oferecemos várias formas de atualizar as Informações de Identificação Pessoal obtidas e armazenadas pela Karen`s Boutique ou de alterar as preferências da sua conta na Karen`s Boutique:</p>
+	        <p>Caso tenha uma conta online com a Karen`s Boutique, você poderá atualizar ou alterar as informações da sua conta enviando um e-mail para karensboutique@gmail.com</p>
+	        <p>Você poderá descadastrar-se de nossos e-mails sobre atualizações ou produtos seguindo as instruções que aparecem no corpo de qualquer mensagem (ver Comunicações por E-mail ou Mensagens de Texto abaixo).</p>
+	        <p>Você pode nos contatar em karensboutique@gmail.com.</p>
+	        <h4>Divulgação de Informações a Terceiros</h4>
+	        <p>A Karen`s Boutique poderá divulgar Informações (incluindo Informações de Identificação Pessoal) fornecidas por você ou a respeito de você, seu computador ou dispositivo à terceiros nas circunstâncias descritas abaixo. Ao visitar, acessar, participar ou utilizar produtos, serviços ou eventos da Karen`s Boutique, você consente à divulgação dessas Informações a certas categorias de terceiros, da forma descrita a seguir. Essa Política de Privacidade não se aplica às políticas e práticas de nenhum desses terceiros.</p>
+	        <h4>Processadores de Pagamentos</h4>
+	        <p>A Karen`s Boutique usa processadores de pagamento externos, incluindo PayPal, CyberSource, Litle, Stripe, e Authorize.net, IUGU, Pagseguro, Mercado Pago, CEF, Bradesco, Itaú, Santander, para processar pagamentos financeiros por certos serviços da Karen`s Boutique. Quando você faz pagamentos à Karen`s Boutique e/ou adquire certos produtos ou serviços da Karen`s Boutique, a Karen`s Boutique poderá transferir certas Informações (incluindo Informações de Identificação Pessoal), como Nome, Endereço e Dados de Cartão de Crédito, a esses processadores de pagamentos, com o único propósito de facilitar a transação de pagamento.</p>
+	        <h4>Cadastramento para Eventos</h4>
+	        <p>A Karen`s Boutique utiliza serviços externos, como o RD Station, para processar o cadastramento para eventos e programas da Karen`s Boutique. A Karen`s Boutique poderá fornecer suas Informações (incluindo Informações de Identificação Pessoal) a tais serviços de cadastramento quando você se cadastrar para um evento ou programa da Karen`s Boutique. Adicionalmente, como discutido abaixo, a Karen`s Boutique (ou seu serviço externo de cadastramento) poderão fornecer suas informações (incluindo Informações de Identificação Pessoal) a empresas que patrocinam ou se responsabilizam por porções de um evento para o qual você se cadastre, em que você participe ou assista.</p>
+	        <h4>Hospedeiros Web</h4>
+	        <p>Os serviços de website da Karen`s Boutique são hospedados pela LIMESTONE NETWORKS, um Datacenter para empresas. Todas as Informações obtidas e armazenadas pelos sites da Karen`s Boutique, são processadas e armazenadas em servidores da propriedade e operação da LIMESTONE NETWORKS.</p>
+	        <h4>Patrocinadores e Parceiros Comerciais</h4>
+	        <p>Caso você tenha escolhido se cadastrar para um do nossos webinários ou eventos patrocinados ou acessar pesquisas ou conteúdo da Karen`s Boutique, nós poderemos compartilhar suas Informações (incluindo Informações de Identificação Pessoal) com parceiros de negócios e/ou patrocinadores do webinário, evento, pesquisa ou conteúdo. Você concorda que esses patrocinadores e/ou parceiros de negócio poderão usar suas Informações de Identificação Pessoal para entrar em contato com você e fornecer mais informações sobre produtos e serviços deles.</p>
+	        <h4>Sites de Terceiros</h4>
+	        <p>A Karen`s Boutique oferece a habilidade de compartilhar conteúdo da Karen`s Boutique em Sites de Terceiros, incluindo redes sociais e serviços de blog como LinkedIn ou Facebook, através de “plugins” ou“widgets” (como o botão “in” do LinkedIn ou o botão “curtir” do Facebook). Quando você opta por compartilhar conteúdo e informações com outros em  Sites de Terceiros, a Karen`s Boutique poderá transmitir suas Informações (incluindo Informações de Identificação Pessoal) a tais Sites de Terceiros. Essas Informações poderão estar visíveis em Site de Terceiros a qualquer pessoa que tenha acesso àquele conteúdo ou Informações.
+			Sua decisão de compartilhar informações dessa maneira é inteiramente voluntária. Você deve se assegurar de que se sente confortável com as maneiras como Sites de Terceiros podem compartilhar suas Informações, verificando as políticas de privacidade adotadas por eles e/ou modificando suas preferências de privacidade diretamente nos Sites de Terceiros.</p>
+	        <h4>Informações sobre URL/Cabeçalho Referer</h4>
+	        <p>Quando você visita sites da Karen`s Boutique, certas informações sobre o conteúdo ou atividades que você executou na Karen`s Boutique poderão se refletir na Uniform Resource Locator (“URL”)  da página que você está visualizando na Karen`s Boutique (ou seja, o “endereço” de internet, que normalmente aparece na janela do navegador. Por exemplo, a data ou título de um artigo que você está visualizando pode aparecer na URL daquela página. Adicionalmente, se você estiver logado em sua conta da Karen`s Boutique, certas informações da conta poderão ficar visíveis na URL sempre que você visitar a Karen`s Boutique. Caso você saia da Karen`s Boutique  para visitar um outro site, inclusive quando você clica em um anúncio ou link ou compartilha informações através de um plug-in social (como o botão “in” do LinkedIn), as informações contidas na URL poderão ser transmitidas para o outro site pelo seu navegador.</p>
+	        <h4>Anunciantes e Serviços de Dados Analíticos</h4>
+	        <p>Como discutido em “Publicidade de Terceiros na Karen`s Boutique”, a Karen`s Boutique utiliza anunciantes externos, incluindo redes de anúncios, para fornecer publicidade em seus sites. Adicionalmente, conforme discutido “Serviços de Dados Analíticos”, a Karen`s Boutique usa produtos de dados analíticos externos para obter informações sobre como os usuários utilizam e interagem com a Karen`s Boutique. Esses terceiros poderão receber Informações (incluindo Informações de Identificação Pessoal) da Karen`s Boutique, conforme discutido mais detalhadamente em “Segurança e Proteção de Informações de Identificação Pessoal”.</p>
+	        <h4>Aplicação da Lei/Processo Legal</h4>
+	        <p>Poderemos divulgar suas Informações (incluindo Informações de Identificação Pessoal) quando acreditarmos de boa fé que a divulgação é necessária para o cumprimento de qualquer lei, regulamento ou solicitação legal; para cumprir, aplicar ou investigar violações de nossos termos de uso e outros acordos; em resposta à solicitações públicas; ou para proteger os direitos, propriedade, experiência de usuário ou segurança da Karen`s Boutique, nossos funcionários, nossos usuários ou outros. Isso pode incluir a troca de informações com outras empresas e organizações, para fins de proteção contra fraude e redução de risco de crédito.</p>
+	        <h4>Compartilhamento em Sites de Terceiros</h4>
+	        <p>A Karen`s Boutique estimula a participação ativa de usuários, inclusive por meio de comentários publicados na Karen`s Boutique. No entanto, por favor esteja ciente de que quando você divulga voluntariamente Informações pessoais ou de outra natureza na Karen`s Boutique, essas Informações podem ser visualizadas, coletadas e utilizadas por outros, incluindo outros usuários, mecanismos de busca, anunciantes, desenvolvedores de outros aplicativos e qualquer outra pessoa que tenha acesso à Karen`s Boutique. A Karen`s Boutique não tem nenhum controle sobre o uso, coleta ou divulgação de quaisquer Informações que você postar publicamente na Karen`s Boutique.</p>
+	        <h4>Mudança de Controle</h4>
+	        <p>Caso a Karen`s Boutique ou todos os seus bens, forem adquiridos por outra empresa ou parte, as Informações de usuários serão um dos bens transferidos ou adquiridos pelo comprador. Você reconhece que tais transferências podem ocorrer, e que qualquer comprador da Karen`s Boutique ou de seus bens poderá continuar a coletar, utilizar e divulgar suas Informações conforme estabelecido nesta Política.</p>
+	        <h4>Publicidade de Terceiros na Karen`s Boutique</h4>
+	        <p>A Karen`s Boutique poderá permitir que empresas que publicam anúncios, incluindo redes de anúncios, (“Anunciantes) exibam anúncios ou forneçam outros serviços de publicidade na Karen`s Boutique. Esses Anunciantes externos poderão usar técnicas que não sejam cookies HTTP para reconhecer seu computador ou dispositivo e/ou coletar e armazenar Informações demográficas ou de qualquer outra natureza sobre você, incluindo suas atividades dentro e fora da Karen`s Boutique. Essas técnicas poderão ser usadas diretamente na Karen`s Boutique. Por favor, esteja ciente de que seu navegador poderá não permitir que você bloqueie o uso dessas técnicas, e que configurações de navegador que bloqueiam cookies convencionais poderão não ter qualquer efeito sobre essas técnicas. Anunciantes poderão utilizar as informações coletadas para exibir anúncios personalizados para os seus interesses ou origem e/ou associar essas informações com suas visitas, compras ou outras atividades subsequentes em outros sites. Anunciantes poderão também compartilhar esses dados com seus clientes ou terceiros.</p>
+	        <p>A Karen`s Boutique não tem qualquer responsabilidade pelas tecnologias, ferramentas ou práticas utilizadas por Anunciantes que fornecem publicidade e serviços relacionados na Karen`s Boutique. Essa Política de Privacidade não cobra qualquer coleta, uso ou divulgação de Informações por Anunciantes que fornecem publicidade e outros serviços relacionados na Karen`s Boutique. As práticas de coleta de informações desses Anunciantes, incluindo políticas para o uso de cookies e outras tecnologias de rastreamento, são governadas inteiramente pelas políticas de privacidade dos Anunciantes, e não por essa.
+			Atualmente, a Karen`s Boutique pode estar utilizando um ou mais que um dos Anunciantes a seguir para fornecer publicidade e serviços relacionados na Karen`s Boutique. Caso você deseje saber mais sobre as práticas de coleta de informações e privacidade desses Anunciantes, favor visitar os links abaixo.
+			A Karen`s Boutique utiliza os Termos e Condições Padrão estabelecidos pelo Internet Advertising Bureau (IAB). Veja os Termos e Condições Padrão</p>
+	        <h4>Serviços de Dados Analíticos</h4>
+	        <p>Adicionalmente, a Karen`s Boutique utiliza provedores e produtos externos de dados analíticos para obter, compilar e analisar Informações (que podem incluir Informações de Identificação Pessoal) sobre como usuários usam e interagem com a Karen`s Boutique. A Karen`s Boutique poderá fornecer Informações (incluindo Informações de Identificação Pessoal) a esses provedores de dados analíticos com o propósito de obter estatísticas e outras informações sobre como os usuários estão usando e interagindo com a Karen`s Boutique. Esses provedores de dados analíticos poderão usar técnicas que não sejam cookies HTTP para reconhecer seu computador ou dispositivo e/ou coletar ou compilar essas informações. Essas técnicas poderão ser usadas diretamente na Karen`s Boutique. A Karen`s Boutique não tem qualquer responsabilidade pelas tecnologias, ferramentas ou práticas de terceiros que fornecem produtos e serviços de dados analíticos à Karen`s Boutique. Por favor, esteja ciente de que seu navegador poderá não permitir que você bloqueie o uso dessas técnicas, e que configurações de navegador que bloqueiam cookies convencionais poderão não ter qualquer efeito sobre essas técnicas.</p>
+	        <h4>Segurança e Proteção de Informações de Identificação Pessoal</h4>
+	        <p>Nós implementamos medidas e práticas razoáveis de segurança em um esforço para proteger a confidencialidade de suas Informações de Identificação Pessoal (exceto Informações de Identificação Pessoal que você tenha escolhido compartilhar com outros). No entanto, nenhum sistema de segurança é impenetrável. Pode ser possível a terceiros interceptar ou acessar informações que você forneceu à Karen`s Boutique. A Karen`s Boutique não pode garantir a segurança de suas Informações de Identificação Pessoal, ou garantir que as informações que você fornece não serão interceptadas enquanto estão sendo transmitidas à Karen`s Boutique. É importante que você se proteja de acesso não autorizado às suas senhas e ao seu computador ou dispositivo, e que saia do site sempre que estiver usando um computador compartilhado.</p>
+	        <h4>Comunicações por E-mail ou Mensagens de Texto</h4>
+	        <p>Caso você acesse produtos ou serviços da Karen`s Boutique ou cadastre-se para eventos, webinários ou outros conteúdos ou serviços fornecidos pela Karen`s Boutique, nós poderemos contata-lo via e-mail, mensagem de texto SMS ou outros meios de comunicação eletrônicos equivalentes. Ao visitar ou utilizar conteúdo, produtos ou serviços da Karen`s Boutique ou cadastrar-se ou comparecer a eventos ou webinários da Karen`s Boutique, você consente especificamente ao recebimento dessas comunicações por e-mail ou mensagens de texto SMS. Caso você não deseje mais receber e-mails, mensagens de texto SMS ou outras comunicações da nossa parte, por favor notifique-nos no e-mail karensboutique@gmail.com e inclua informações suficientes para a identificação da sua conta, incluindo nome, endereço de e-mail (ou número de telefone celular) e os detalhes específicos do seu pedido. Caso você peça para parar de receber esses emails, a Karen`s Boutique ainda poderá contatá-lo via e-mail ou mensagem de texto SMS para fins administrativos ou em relação a outros produtos, serviços ou eventos em que você se cadastrou ou que está usando.</p>
+	        <h4>Alterações na Política de Privacidade</h4>
+	        <p>A Karen`s Boutique se reserva a discrição de alterar ou modificar essa Política de Privacidade de tempos em tempos. O uso e a divulgação de Informações obtidas por nós estão sujeitos à mais recente política entre: (1) a Política de Privacidade em efeito no momento em que tais Informações são coletadas, ou (2) qualquer Política de Privacidade subsequente da qual você seja notificado. Se fizermos alterações materiais à forma como coletamos, utilizamos ou divulgamos Informações de Identificação Pessoal, vamos notificá-lo através de um anúncio claro e em destaque na Karen`s Boutique ou através de comunicação direta. Seu acesso contínuo ou uso da Karen`s Boutique a seguir à notificação de alterações materiais nessa Política de Privacidade constituirá consentimento a quaisquer alterações e/ou modificações. Seu uso da Karen`s Boutique é inteiramente voluntário e poderá ser encerrado por você a qualquer momento.</p>
+	        <h4>Como Nos Contatar</h4>
+	        <p>A Karen`s Boutique acolhe quaisquer questões ou comentários que você queira fazer em relação à essa Política de Privacidade ou sua implementação.  Todas as questões e comentários devem ser enviadas por e-mail para karensboutique@gmail.com ou direcionadas para o endereço abaixo. Vamos fazer o possível para resolver ou responder à sua questão.</p>
+	        <p>Essa Política de Privacidade estará em vigor a partir de 18/11/2025</p>
+	        
+	</section>
+
+
+	<footer>
+		<div>
+			<img class="logofooter" src="assets/images/logo.jpg">
+		</div>
+		<div class="inst">
+			<h4>Institucional</h4>
+			<a href="trocasedevolucoes.html">Política de troca e devolução</a>
+			<a href="privacidade.html">Política de privacidade</a>
+			<a href="contatos.html">Contato</a>
+			<a href="perguntas.html">Perguntas frequentes</a>
+			<a href="frete.html">Condições de frete</a>
+		</div>
+		<div class="atend">
+			<h4>Atendimento</h4>
+			<a href=""><i class="fa-brands fa-whatsapp"></i> (61)90000-0000</a>
+			<a href=""><span class="material-symbols-outlined">mail</span> karens@contato.com.br</a>
+		</div>
+		<div class="band">
+			<img src="assets/images/mastercard@2x.png">
+			<img src="assets/images/visa@2x.png">
+			<img src="assets/images/pix@2x.png">
+			<img src="assets/images/amex@2x.png">
+			<img src="assets/images/diners@2x.png">
+			<img src="assets/images/elo@2x.png">
+			<img src="assets/images/hipercard@2x.png">
+		</div>
+		<div class="direi">
+			<p>2025 - Todos os direitos reservados. Criado por @patrick_henrique_</p>
+		</div>
+	</footer>
+
+	<script src="assets/js/componentes/abrirmenumobile.js" defer></script>
+	<script src="assets/js/componentes/dropdowncategorias.js" defer></script>
+	<script src="assets/js/componentes/linklogo.js" defer></script>
+	<script src="assets/js/componentes/linkfinalizar.js" defer></script>
+	<script src="assets/js/componentes/carrinhodeslizante.js" defer></script>
+	<script src="assets/js/componentes/pesquisar.js" defer></script>
+
+	<script type="module" src="assets/js/componentes/search.js"></script>
+	
+
+	
+	
+</body>
+</html>

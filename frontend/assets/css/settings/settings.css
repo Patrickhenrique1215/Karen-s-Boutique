@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+/* Remove highlight azul em todos os elementos */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+li{
+	list-style-type: none;
+}
+
+:root{
+    --vermelhoid: #C04A4A;
+    --rosaid: #F5C2BA;
+    --substpreto: #0e2431;  
+    --cinzavermelho: #786569;
+    --cinzavermelhomaisescuro: #54484b;
+    --cinzavermelhomaisclaro: #baa8ad;
+}
+
+body {
+    background-color: #ffffff;
+}

@@ -1,0 +1,77 @@
+/* ==================== SECTION ==================== */
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; /* ocupa a maior parte da tela */
+  padding: 40px 20px;
+  background: #f8f8f8;
+}
+
+/* ==================== FORM ==================== */
+.form-contato {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-contato h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.form-contato label {
+  font-weight: 500;
+  color: #555;
+}
+
+/* Inputs e textarea */
+.form-contato input,
+.form-contato textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  width: 100%;
+  resize: none; /* textarea sem redimensionamento manual */
+  transition: border-color .2s;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+  border-color: #ba8fa8;
+  outline: none;
+}
+
+/* Botão */
+.form-contato button {
+  padding: 12px;
+  background: #F5C2BA;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background .2s, transform .2s;
+}
+
+.form-contato button:hover {
+  background: #ba8fa8;
+  transform: translateY(-2px);
+}
+
+
+
+@media (max-width: 768px){
+  .contato{
+    margin-top: 70px;
+  }
+}

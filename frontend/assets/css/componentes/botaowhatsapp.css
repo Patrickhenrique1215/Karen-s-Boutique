@@ -1,0 +1,79 @@
+
+.whatsapp-float {
+  position: fixed;
+  right: 25px;            
+  bottom: 25px;          
+  width: 40px;          
+  height: 40px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  z-index: 9;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  transition: transform .18s ease, box-shadow .18s ease;
+  text-decoration: none;
+}
+
+/* imagem dentro do botão */
+.whatsapp-float img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  display: block;
+  border-radius: 100%;
+}
+
+/* hover / foco */
+.whatsapp-float:hover,
+.whatsapp-float:focus {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.22);
+  outline: none;
+}
+
+/* tooltip simples (aparece no hover) */
+.whatsapp-float::after {
+  content: "Fale conosco";
+  position: absolute;
+  right: calc(100% + 12px);
+  bottom: 50%;
+  transform: translateY(50%);
+  background: #111;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .12s ease, transform .12s ease;
+  transform-origin: right center;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* mostra tooltip no hover (esconde em telas muito pequenas) */
+@media (min-width: 480px) {
+  .whatsapp-float:hover::after,
+  .whatsapp-float:focus::after {
+    opacity: 1;
+    transform: translateY(50%) translateX(-6px);
+  }
+}
+
+/* respeitar preferências de movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-float,
+  .whatsapp-float:hover,
+  .whatsapp-float:focus {
+    transition: none;
+    transform: none;
+  }
+}
+
+
+@media (min-width: 992px){
+  .whatsapp-float{
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+}

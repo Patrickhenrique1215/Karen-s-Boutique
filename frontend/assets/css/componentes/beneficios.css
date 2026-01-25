@@ -1,0 +1,34 @@
+
+.benef{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20vw;
+  margin: 20px 6vw 6vw 20px;
+}
+.benef div{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.benef div > i{
+  color: var(--vermelhoid);
+  font-size: 1.2rem;
+}
+.benef div p{
+  color: var(--cinzavermelho);
+  text-align: center;
+}
+
+
+@media (min-width: 992px){
+  .benef div > i{
+    font-size: 1.4vw;
+  }
+
+  .benef div p{
+    font-size: 1.2vw;
+  }
+}

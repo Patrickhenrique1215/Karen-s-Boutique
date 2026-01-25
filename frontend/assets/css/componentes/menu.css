@@ -1,0 +1,391 @@
+/*   ============  TOPO MOBILE    =============*/
+.header-nav { 
+  background:#ffffff; 
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+
+.gridtopo{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.diviconuser{
+  grid-column: 1;
+}
+
+.iconuser{
+  color: var(--vermelhoid);
+  font-size: 1.4rem;
+}
+
+.iconuser:active{
+  padding: 20px;
+  border: 1px solid var(--rosaid);
+}
+.search-container-mobile{
+  grid-column: 2;
+}
+
+.search-icon-mobile{
+  color: var(--vermelhoid);
+  font-size: 1.4rem;
+  transition: color 0.3s;
+}
+
+.search-icon-mobile:active{
+  padding: 20px;
+  border: 1px solid var(--rosaid);
+}
+
+.search-box-mobile {
+  position: absolute;
+  right: 0;
+  top: 90px;
+  width: 0;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: width 0.4s ease;
+  z-index: 100;
+}
+
+.search-box-mobile.active {
+  width: 100vw;
+  padding: 15px;
+}
+
+.search-input-mobile {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid var(--rosaid);
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.search-stats-mobile {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+
+.div-logo{
+  grid-column: 3 / span 2;
+}
+
+.logo{
+  width: 100%;
+}
+
+.divcart{
+  grid-column: 5;
+}
+
+.iconcart{
+  color: var(--vermelhoid);
+  font-size: 1.4rem;
+}
+
+.iconcart:active{
+  padding: 20px;
+  border: 1px solid var(--rosaid);
+}
+
+.divbars{
+  grid-column: 6;
+}
+
+.bars{
+  font-size: 1.8rem;
+  transition: font-size 0.3s ease;
+}
+
+.bars:hover{
+  font-size: 1.9rem;
+  color: gray;
+}
+
+.menu-items{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  background: white;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu-items.ativo {
+  transform: translateX(0);
+}
+
+.botaofecharmenumobile{
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  margin: 20px 20px 100px 0;
+  align-self: flex-end;
+  transition: transform 0.3s ease;
+}
+
+.botaofecharmenumobile:hover{
+  transform: scale(1.1);
+  color: gray;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+body.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.menu-items li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: transform .9s ease;
+}
+
+.menu-items li:hover{
+  transform: scale(1.1);
+}
+
+.menu-items a{
+  color: var(--vermelhoid);
+}
+
+.seta {
+  margin-bottom: -10px;
+  transition: transform 0.8s ease;
+}
+
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  background: rgba(245, 194, 186, 0.3);
+  transition: max-height 0.8s ease;
+}
+.submenu li{
+  padding: 8px;
+  margin: 0;
+}
+.submenu li a{
+  font-size: 1rem;
+}
+
+.active .submenu {
+  max-height: 1500px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.active .seta {
+  transform: rotate(90deg);
+}
+ 
+.logoinsta{
+  width: 40px;
+}
+
+
+
+
+
+
+/*  ============  TOPO DESKTOP   ================================================    =========*/
+
+.headerdesktop{
+  display: none;
+}
+
+.topo{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--rosaid);
+}
+
+.logodesktop{
+  height: 24vh;
+  width: auto;
+  grid-column: 3 / span 2;
+  cursor: pointer;
+}
+
+.iconcartdesk{
+  grid-column: 5;
+}
+
+.iconcartdesk i{
+  font-size: 1.7rem;
+  color: var(--vermelhoid);
+  font-size: 2.4vw;
+}
+
+.iconuserdesk{
+  grid-column: 6;
+}
+
+.iconuserdesk i{
+  font-size: 1.7rem;
+  color: var(--vermelhoid);
+  font-size: 2.4vw;
+}
+
+.menu-principal{
+  margin: 4vh 6vw 8vh 6vw;
+}
+
+.menu-principal ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+}
+
+.menu-principal > ul > li {
+  position: relative; 
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+.menu-principal a {
+  display: block;
+  color: var(--vermelhoid);
+  transition: background-color 0.3s;
+  font-size: 1.4vw;
+  transition: transform 0.3 ease;
+}
+
+.menu-principal a:hover{
+  transform: scale(1.1);
+}
+
+.menu-principal ul li .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  min-width: 160px;
+   background: #ddd;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 99; 
+}
+
+.svgcategorias{
+  transition: transform 0.8s ease;
+  color: var(--vermelhoid);
+  width: 2rem;
+  height: auto;
+}
+
+.dropdown-content li {
+  display: block; 
+  height: 0;
+
+}
+
+.menu-principal ul li .dropdown-content li a {
+  padding: 10px; 
+  background: #ddd;
+}
+
+.menu-principal ul li .dropdown-content li a:hover{
+  border: 1px solid var(--rosaid);
+}
+.dropdown:hover .dropdown-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  min-width: 500px;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    font-size: 1.4rem;
+    color: var(--vermelhoid);
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.search-box {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 0;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: width 0.4s ease;
+    z-index: 100;
+}
+
+.search-box.active {
+    width: 350px;
+    padding: 15px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--vermelhoid);
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.search-input:focus {
+    border-color: var(--vermelhoid);
+}
+
+.products-grid {
+  margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4vw;
+}
+
+
+@media (min-width: 992px) {
+  .headerdesktop { display: block; }
+  .header-nav { display: none; }
+
+  .products-grid{
+    margin-top: 0px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2vw;
+  }
+}
+
+
+
+
+

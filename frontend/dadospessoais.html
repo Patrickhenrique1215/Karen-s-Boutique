@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!-- Metas -->
+	<meta charset="utf-8">
+	<meta name="author" content="insta patrick_henrique_">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">				
+
+	<!-- Geral -->
+	<link rel="icon" href="assets/images/favicon.png">  <!--16x16-->
+	<title>Karen`s Boutique</title>
+
+	<!--CSSs-->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">    
+
+	<!--Fontes e icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+
+	 <style>
+   
+  </style>
+
+</head>
+<body>
+
+	<section class="secdados">
+
+		<div class="dadostitulo">
+			<h3>Dados pessoais</h3>
+		</div>
+
+		<div class="barradeprogresso">
+	    		<div class="step">
+	    			<span class="numprog marcado"><i class="fa-solid fa-check"></i></span>
+	    			<span class="descriprog">Carrinho</span>
+	    		</div>
+	    		<div class="linhadeprogresso linhamarcada"></div>
+	    		<div class="step">
+	    			<span class="numprog marcado"></span>
+	    			<span class="descriprog">Dados</span>
+	    		</div>
+	    		<div class="linhadeprogresso"></div>
+	    		<div class="step">
+	    			<span class="numprog">3</span>
+	    			<span class="descriprog">Pagamento</span>
+	    		</div>
+	  		</div>
+
+		<div>
+
+		<form class="formdados" id="formdados" action="/dadospessoais" method="POST">
+
+		  <div class="divcontato">
+		  	<h5>Contato</h5>
+
+		    <label for="email">Email</label>
+		    <input type="email" id="email" name="email" required placeholder="seu@email.com">
+
+		    <label for="telefone">Telefone ou Celular</label>
+		    <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+		  </div>
+
+		  <div class="diventrega">
+		  	<h5>Entrega</h5>
+
+		    <label for="nomeCompleto">Nome Completo</label>
+		    <input type="text" id="nomeCompleto" name="nomeCompleto" required placeholder="Digite seu nome completo">
+		
+		    <label for="cep">CEP</label>
+		    <input type="text" id="cep" name="cep" required maxlength="9" placeholder="00000-000">
+		
+	        <label for="estado">Estado</label>
+	        <select id="estado" name="estado" required>
+			  <option value="">Selecione o estado</option>
+			  <option value="AC">AC - Acre</option>
+			  <option value="AL">AL - Alagoas</option>
+			  <option value="AP">AP - Amapá</option>
+			  <option value="AM">AM - Amazonas</option>
+			  <option value="BA">BA - Bahia</option>
+			  <option value="CE">CE - Ceará</option>
+			  <option value="DF">DF - Distrito Federal</option>
+			  <option value="ES">ES - Espírito Santo</option>
+			  <option value="GO">GO - Goiás</option>
+			  <option value="MA">MA - Maranhão</option>
+			  <option value="MT">MT - Mato Grosso</option>
+			  <option value="MS">MS - Mato Grosso do Sul</option>
+			  <option value="MG">MG - Minas Gerais</option>
+			  <option value="PA">PA - Pará</option>
+			  <option value="PB">PB - Paraíba</option>
+			  <option value="PR">PR - Paraná</option>
+			  <option value="PE">PE - Pernambuco</option>
+			  <option value="PI">PI - Piauí</option>
+			  <option value="RJ">RJ - Rio de Janeiro</option>
+			  <option value="RN">RN - Rio Grande do Norte</option>
+			  <option value="RS">RS - Rio Grande do Sul</option>
+			  <option value="RO">RO - Rondônia</option>
+			  <option value="RR">RR - Roraima</option>
+			  <option value="SC">SC - Santa Catarina</option>
+			  <option value="SP">SP - São Paulo</option>
+			  <option value="SE">SE - Sergipe</option>
+			  <option value="TO">TO - Tocantins</option>
+			</select>
+
+		    <label for="cidade">Cidade</label>
+		    <input type="text" id="cidade" name="cidade" required placeholder="Digite sua cidade">
+
+		    <label for="bairro">Bairro</label>
+		    <input type="text" id="bairro" name="bairro" required placeholder="Digite o bairro">
+		 
+	        <label for="endereco">Endereço</label>
+	        <input type="text" id="endereco" name="endereco" required placeholder="Rua, Avenida, etc.">
+	    
+	        <label for="numero">Número</label>
+	        <input type="text" id="numero" name="numero" required placeholder="123">
+
+		  </div>
+
+		  <div class="divfretes">
+		  	<h5>Frete</h5>
+		  	<div>
+		  		FORMA DE FRETE
+		  	</div>
+		  	<div>
+		  		FORMA DE FRETE
+		  	</div>
+		  	<div>
+		  		FORMA DE FRETE
+		  	</div>
+		  </div>
+		</form>
+
+
+		<div class="divfooterdados">
+			<div>
+				<button class="irparapag">Ir para pagamento</button>
+			</div>
+			<div class="band">
+				<img src="assets/images/mastercard@2x.png">
+				<img src="assets/images/visa@2x.png">
+				<img src="assets/images/pix@2x.png">
+				<img src="assets/images/amex@2x.png">
+				<img src="assets/images/diners@2x.png">
+				<img src="assets/images/elo@2x.png">
+				<img src="assets/images/hipercard@2x.png">
+			</div>
+		</div>
+		
+
+	</section>
+
+	
+
+	<script src="assets/js/componentes/linkirparapag.js" defer></script>
+	
+</body>
+</html>
