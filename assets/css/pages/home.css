@@ -1,7 +1,4 @@
 
-.sechome{
-  margin-top: 50px;
-}
 
 /*  ===========   CARROSSEL      / BANNERS   ====  */
 .carousel {
@@ -65,69 +62,19 @@ picture img, picture source {
   background: #333;
 }
 
+
+/* AREA DE CARDS DE NOVIDADES, LOOKS E QUEM USOU, AMOU */
 .hcards{
-  margin-top: 80px;  
+  margin: 12vw 6vw 10vw 6vw;
 }
 
 
-
-
-
-
-
-
-
-/* Estilo cards via IA */
-.loading {
-    text-align: center;
-    padding: 40px;
-    grid-column: 1 / -1;
-    color: #666;
-    font-size: 1.1rem;
+.hcards h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--vermelhoid);
 }
 
-/* Estilo para mensagem de erro */
-.error-message {
-    text-align: center;
-    padding: 40px;
-    grid-column: 1 / -1;
-    color: #d32f2f;
-}
-
-.error-message p {
-    margin-bottom: 20px;
-}
-
-.btn-retry {
-    background: #2196F3;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.3s;
-}
-
-.btn-retry:hover {
-    background: #1976D2;
-}
-
-/* Animação para notificação */
-@keyframes slideIn {
-    from {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-
-/* QUEM USOU, AMOU==========================*/
-/* QUEM USOU, AMOU */
 .fotosinsta {
   display: flex;
   flex-wrap: wrap;
@@ -143,21 +90,19 @@ picture img, picture source {
   object-fit: cover;
 }
 
-/* Desktop */
 @media (min-width: 768px) {
   .fotosinsta {
-    gap: 2%; /* menos gap entre as imagens no desktop */
+    gap: 2%; 
   }
 
   .fotosinsta img {
-    width: 22%; /* 4 imagens lado a lado (22% + gaps = ~100%) */
+    width: 22%; 
   }
 }
 
-/* Opcional: ajustes para telas maiores */
 @media (min-width: 1200px) {
   .fotosinsta img {
-    width: 20%; /* mantém 4 imagens lado a lado, ocupa um pouco menos da tela */
+    width: 20%; 
   }
 }
 
@@ -182,7 +127,7 @@ picture img, picture source {
 
 
 @media (min-width: 992px){
-  .sechome{
-    margin-top: 0;
-  }
+  .hcards{
+    margin: 10vh 6vw 0 6vw;
+  } 
 }
