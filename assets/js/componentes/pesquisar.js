@@ -1,4 +1,4 @@
-// ================= SEARCH DESKTOP =================
+//=====================SEARCH DESKTOP ==================
 const searchToggle = document.getElementById("searchToggle");
 const searchBox = document.getElementById("searchBox");
 const searchInput = document.getElementById("searchInput");
@@ -6,12 +6,11 @@ const searchInput = document.getElementById("searchInput");
 if (searchToggle && searchBox && searchInput) {
   searchToggle.addEventListener("click", (e) => {
     e.preventDefault();
-    e.stopPropagation(); // 👈 evita fechar na hora
+    e.stopPropagation(); 
 
     const isActive = searchBox.classList.toggle("active");
 
     if (isActive) {
-      // pequeno delay pra garantir que já está visível
       setTimeout(() => {
         searchInput.focus();
       }, 50);
@@ -19,7 +18,7 @@ if (searchToggle && searchBox && searchInput) {
   });
 
   searchBox.addEventListener("click", (e) => {
-    e.stopPropagation(); // permite clicar dentro sem fechar
+    e.stopPropagation(); 
   });
 
   document.addEventListener("click", () => {

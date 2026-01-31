@@ -1,4 +1,4 @@
-// paginadeproduto.js
+
 import { dataService } from '../services/dataService.js'; 
 
 async function carregarPaginaProduto() {
@@ -66,11 +66,10 @@ async function carregarPaginaProduto() {
         }
 
         // 5. ATIVAÇÃO DO SLIDER
-        // Agora que as imagens existem, inicializamos o slider e os pontinhos
         if (typeof initSlider === "function") {
             initSlider();
             window.currentIndex = 0;
-            updateSlide(); // Posiciona no início
+            updateSlide(); 
         }
 
     } catch (error) {

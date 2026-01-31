@@ -1,7 +1,5 @@
-// search.js
-import { dataService } from "../../../services/dataService.js";
 
-/* ================= UTIL ================= */
+import { dataService } from "../../../services/dataService.js";
 
 function normalize(text = "") {
   return text
@@ -147,13 +145,8 @@ if (searchInputMobile) {
 function configurarEnter(input, boxId) {
   input.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
-      // 1. Executa a busca imediatamente (sem esperar o debounce)
       handleSearch(input);
-
-      // 2. Tira o foco para esconder o teclado no mobile
       input.blur();
-
-      // 3. Fecha a caixinha de busca (remove a classe active)
       const box = document.getElementById(boxId);
       if (box) {
         box.classList.remove("active");
@@ -162,6 +155,5 @@ function configurarEnter(input, boxId) {
   });
 }
 
-// Aplicando para Desktop e Mobile
 if (searchInput) configurarEnter(searchInput, "searchBox");
 if (searchInputMobile) configurarEnter(searchInputMobile, "searchBoxMobile");

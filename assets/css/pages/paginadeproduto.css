@@ -1,6 +1,7 @@
 
 .sectionproduto{
-    margin-top: 100px;
+    margin-top: 0px;
+    animation: fadeIn 1s ease;
 }
 /* ========   slider   ======*/
 .btn-prev, .btn-next{
@@ -78,6 +79,7 @@
     margin: 20px 6vw 15px 6vw;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(125, 61, 72, 0.5);
+    animation: fadeIn 1s ease;
 }
 
 .infoprodut h5{
@@ -109,6 +111,7 @@
 .tamanho{
     margin: 10px 6vw 15px 6vw;
     padding-bottom: 10px;
+    animation: fadeIn 1s ease;
 }
 
 .tamanho h5{
@@ -156,6 +159,7 @@
 .cor{
     margin: 10px 6vw 15px 6vw;
     padding-bottom: 10px;
+    animation: fadeIn 1s ease;
 }
 
 .cor h5{
@@ -207,6 +211,7 @@
     margin: 0 6vw 0 6vw;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(125, 61, 72, 0.5);
+    animation: fadeIn 1s ease;
 }
 
 .botaoadd input{
@@ -241,6 +246,7 @@
     border: 2px solid var(--rosaid);
     padding: 10px 6vw 10px 6vw;
     border-radius: 8px;
+    animation: fadeIn 1s ease;
 }
 
 .shipping h3{
@@ -283,6 +289,7 @@
     justify-content: center;
     margin: 0 6vw 120px 6vw;
     color: var(--cinzavermelho);
+    animation: fadeIn 1s ease;
 }
 .descri h6{
     font-size: 1rem;

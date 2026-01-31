@@ -2,7 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	margin: 100px 6vw 40px 6vw;
+	margin: 0 6vw 40px 6vw;
+	animation: fadeIn 1s ease;
 }
 
 .frete h2{
@@ -20,6 +21,6 @@
 
 @media (min-width: 992px){
 	.frete{
-		margin: 50px 12vw 40px 12vw;
+		margin: 0px 12vw 40px 12vw;
 	}
 }

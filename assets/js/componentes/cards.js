@@ -1,8 +1,6 @@
 
 import { dataService } from "../../../services/dataService.js";
 
-
-// CARD DE PRODUTO
 function criarCard(produto) {
   
   return `

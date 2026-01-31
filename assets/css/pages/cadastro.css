@@ -3,6 +3,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 0 auto;
+    animation: fadeIn 1s ease;
 }
 
 .register-header {
@@ -10,26 +11,31 @@
     color: var(--cinzavermelhomaisescuro);
     padding: 30px 20px;
     text-align: center;
+    animation: fadeIn 1s ease;
 }
 
 .register-header h1 {
     font-size: 28px;
     margin-bottom: 10px;
     font-weight: 600;
+    animation: fadeIn 1s ease;
 }
 
 .register-header p {
     font-size: 16px;
     opacity: 0.9;
+    animation: fadeIn 1s ease;
 }
 
 .register-form {
     padding: 30px;
+    animation: fadeIn 1s ease;
 }
 
 .form-group {
     margin-bottom: 20px;
     position: relative;
+    animation: fadeIn 1s ease;
 }
 
 .form-row {

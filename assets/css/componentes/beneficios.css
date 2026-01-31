@@ -5,6 +5,7 @@
   align-items: center;
   gap: 20vw;
   margin: 20px 6vw 6vw 20px;
+  animation: fadeIn 1s ease;
 }
 .benef div{
   display: flex;

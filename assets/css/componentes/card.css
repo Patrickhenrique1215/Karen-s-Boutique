@@ -1,12 +1,13 @@
 .sec {
   margin: 0 6vw 10vh 6vw;
-
+  animation: fadeIn 1s ease;
 }
 
 .sec h2 {
   margin-bottom: 15px;
   text-align: center;
   color: var(--vermelhoid);
+  animation: fadeIn 1s ease;
 }
 
 
@@ -16,6 +17,7 @@
   gap: 4vw;
   grid-template-columns: repeat(2, 1fr);
   align-items: start;
+  animation: fadeIn 1s ease;
 }
 
 .card {
@@ -26,6 +28,7 @@
   flex-direction: column;
   transition: 0.25s ease;
   cursor: pointer;
+  animation: fadeIn 1s ease;
 }
 
 .card:hover {
@@ -38,6 +41,7 @@
   width: 100%;
   aspect-ratio: 3 / 4;
   overflow: hidden;
+  animation: pulse 1s ease;
 }
 
 .card-img img {

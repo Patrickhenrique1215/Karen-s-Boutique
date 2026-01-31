@@ -18,11 +18,11 @@ botaoFechar.addEventListener('click', () => {
 // Quando abrir o menu
 botaoAbrir.addEventListener('click', () => {
     menu.classList.add('ativo');
-    document.body.classList.add('no-scroll'); // Trava o fundo
+    document.body.classList.add('no-scroll'); 
 });
 
 // Quando fechar o menu
 botaoFechar.addEventListener('click', () => {
     menu.classList.remove('ativo');
-    document.body.classList.remove('no-scroll'); // Libera o fundo
+    document.body.classList.remove('no-scroll'); 
 });

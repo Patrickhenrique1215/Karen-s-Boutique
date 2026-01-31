@@ -1,8 +1,9 @@
 .privacidade{
 	display: flex;
 	flex-direction: column;
-	margin: 100px 6vw 40px 6vw;
+	margin: 0px 6vw 40px 6vw;
 	gap: 10px;
+	animation: fadeIn 1s ease;
 }
 
 .privacidade h4{
@@ -15,6 +16,6 @@
 
 @media (min-width: 992px){
 	.privacidade{
-		margin: 50px 12vw 40px 12vw;
+		margin: 0px 12vw 40px 12vw;
 	}
 }

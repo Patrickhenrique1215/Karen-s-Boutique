@@ -2,7 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
-	margin: 100px 6vw 40px 6vw;
+	margin: 0px 6vw 40px 6vw;
+	animation: fadeIn 1s ease;
 }
 
 .perguntas h2{
@@ -29,6 +30,6 @@
 }
 @media (min-width: 992px){
 	.perguntas {
-		margin: 40px 15vw 40px 15vw;
+		margin: 0px 15vw 40px 15vw;
 	}
 }

@@ -5,6 +5,7 @@
   position: fixed;
   top: 0;
   z-index: 11;
+  animation: fadeIn 1s ease;
 }
 
 .gridtopo{
@@ -84,6 +85,7 @@
 
 .logo{
   width: 100%;
+  animation: fadeIn 1s ease;
 }
 
 .divcart{
@@ -182,6 +184,7 @@ body.no-scroll {
   background: rgba(245, 194, 186, 0.3);
   transition: max-height 0.8s ease;
 }
+
 .submenu li{
   padding: 8px;
   margin: 0;
@@ -212,6 +215,7 @@ body.no-scroll {
 
 .headerdesktop{
   display: none;
+  animation: fadeIn 1s ease;
 }
 
 .topo{
@@ -223,6 +227,7 @@ body.no-scroll {
   margin-right: 6vw;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--rosaid);
+  animation: fadeIn 1s ease;
 }
 
 .logodesktop{

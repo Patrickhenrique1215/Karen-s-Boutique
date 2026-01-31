@@ -8,6 +8,7 @@
   overflow: hidden;
   margin: 0 auto;
   box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+  animation: fadeIn 1s ease;
 }
 
 .carousel-track {
@@ -66,6 +67,7 @@ picture img, picture source {
 /* AREA DE CARDS DE NOVIDADES, LOOKS E QUEM USOU, AMOU */
 .hcards{
   margin: 12vw 6vw 10vw 6vw;
+  animation: fadeIn 1s ease;
 }
 
 
@@ -73,6 +75,7 @@ picture img, picture source {
   margin-bottom: 15px;
   text-align: center;
   color: var(--vermelhoid);
+  animation: fadeIn 1s ease;
 }
 
 .fotosinsta {
@@ -81,6 +84,7 @@ picture img, picture source {
   justify-content: center; /* centraliza as imagens */
   gap: 20%; /* espaçamento entre imagens no mobile */
   margin: 0 auto;
+  animation: fadeIn 1s ease;
 }
 
 .fotosinsta img {
@@ -119,6 +123,7 @@ picture img, picture source {
   border: 1px solid var(--rosaid);
   border-radius: 20px;
   padding: 24px;
+  animation: fadeIn 1s ease;
 }
 .hist h3, .hist p{
   color: var(--cinzavermelho);

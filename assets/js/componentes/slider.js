@@ -1,6 +1,4 @@
-// slider.js
 
-// Definimos as variáveis no escopo global (window) para que outros scripts as acessem
 window.currentIndex = 0;
 window.slider = null;
 window.items = [];
@@ -58,7 +56,7 @@ function updateDots() {
     }
 }
 
-// Inicializa os seletores e eventos (Pode ser chamada várias vezes)
+// Inicializa os seletores e eventos 
 function initSlider() {
     window.slider = document.querySelector(".slider-container");
     window.items = document.querySelectorAll(".slider-item");
